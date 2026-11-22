@@ -1,0 +1,18 @@
+{
+  "csv": "data\\measures_v2.csv",
+  "target": "pm",
+  "group": "profile_id",
+  "profiles_processed": 69,
+  "sample_every": 1,
+  "train_fraction": 0.7,
+  "outlier_rates": [
+    0.0,
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "seed": 42,
+  "huber_c": 2.0,
+  "note": "Original target column is used as clean reference; synthetic corruption is applied to test observations."
+}
